@@ -90,6 +90,7 @@ $config = new Config('myproject', dirname(__DIR__), [
             },
         ],
         'forms' => [
+            //'class' => 'app\components\Forms'
             'class' => 'app\components\Forms'
         ],
         // https://luya.io/guide/luya-mail
